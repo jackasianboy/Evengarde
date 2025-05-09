@@ -1,6 +1,10 @@
+'use client'
+
 import {
     Sheet,
     SheetContent,
+    SheetDescription,
+    SheetHeader,
     SheetTitle,
     SheetTrigger,
   } from "@/components/ui/sheet"
@@ -26,9 +30,9 @@ const MobileNav = () => {
   </SheetTrigger>
 
 
-  <SheetContent className="flex flex-col gap-6 bg:white md:hidden">
+  <SheetContent className="flex flex-col gap-6 bg-white md:hidden">
     <VisuallyHidden>
-    <SheetTitle>THUMBAS</SheetTitle>
+    <SheetTitle>Evengarde </SheetTitle>
     </VisuallyHidden>
     <Image
     src="/assets/images/logo.png"
